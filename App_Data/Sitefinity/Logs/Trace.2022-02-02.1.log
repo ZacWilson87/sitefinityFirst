@@ -1,0 +1,49 @@
+----------------------------------------
+Timestamp: 1/31/2022 3:54:54 PM
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.Versioning.Cleaner.VersioningCleanerTask'. Start time: 1/31/2022 3:54:54 PM. End time: 1/31/2022 3:54:54 PM. Task data: ''
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/31/2022 3:54:54 PM
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.ServiceHooks.Scheduling.ServiceHooksActivitiesCleanupTask'. Start time: 1/31/2022 3:54:54 PM. End time: 1/31/2022 3:54:54 PM. Task data: ''
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/31/2022 3:54:56 PM
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.Lifecycle.Cleanup.TempItemsCleanupTask'. Start time: 1/31/2022 3:54:54 PM. End time: 1/31/2022 3:54:56 PM. Task data: ''
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/31/2022 3:54:57 PM
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.UsageTracking.Scheduling.UsageTrackingTask'. Start time: 1/31/2022 3:54:54 PM. End time: 1/31/2022 3:54:57 PM. Task data: ''
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/1/2022 2:39:37 PM
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.Versioning.Cleaner.VersioningCleanerTask'. Start time: 2/1/2022 2:39:37 PM. End time: 2/1/2022 2:39:37 PM. Task data: ''
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/1/2022 2:39:37 PM
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.ServiceHooks.Scheduling.ServiceHooksActivitiesCleanupTask'. Start time: 2/1/2022 2:39:37 PM. End time: 2/1/2022 2:39:37 PM. Task data: ''
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 2/1/2022 2:39:40 PM
+
+Message: Scheduler: Task executed: 'Telerik.Sitefinity.UsageTracking.Scheduling.UsageTrackingTask'. Start time: 2/1/2022 2:39:37 PM. End time: 2/1/2022 2:39:40 PM. Task data: ''
+
+
+----------------------------------------

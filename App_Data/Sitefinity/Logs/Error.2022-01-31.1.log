@@ -1,0 +1,1446 @@
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 1/27/2022 9:14:19 PM
+
+Message: HandlingInstanceID: e0fe9387-4193-490f-8a4b-4d4a6e3c582a
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+01/27/2022 15:14:19
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not load type: Project, please verify the name.
+Source : Telerik.Sitefinity
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ValidateModule(Telerik.Sitefinity.Services.Web.Services.ViewModel.ModuleViewModel, Telerik.Sitefinity.Configuration.ConfigElementDictionary`2[System.String,Telerik.Sitefinity.Services.AppModuleSettings], Telerik.Sitefinity.Services.AppModuleSettings)
+HResult : -2147024809
+Stack Trace :    at Telerik.Sitefinity.Services.Web.Services.ModulesService.ValidateModule(ModuleViewModel module, ConfigElementDictionary`2 configElementDictionary, AppModuleSettings moduleSettings)
+   at Telerik.Sitefinity.Services.Web.Services.ModulesService.AddStaticModule(ModuleViewModel module)
+   at Telerik.Sitefinity.Services.Web.Services.ModulesService.ExecuteStaticModuleOperation(ModuleViewModel module, ModuleOperation operation)
+   at Telerik.Sitefinity.Services.Web.Services.ModulesService.Execute(ModuleViewModel module, ModuleOperation operation)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/27/2022 9:14:19 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132877835070155826
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/Services/ModulesService/modules?operation=0
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132877835070155826
+
+ProcessId: 17628
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:16476
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 1/27/2022 9:14:19 PM
+
+Message: HandlingInstanceID: e061df0c-edd5-4f28-934e-1f0d5f640afb
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+01/27/2022 15:14:19
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not load type: Project, please verify the name.
+Source : Telerik.Sitefinity
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ValidateModule(Telerik.Sitefinity.Services.Web.Services.ViewModel.ModuleViewModel, Telerik.Sitefinity.Configuration.ConfigElementDictionary`2[System.String,Telerik.Sitefinity.Services.AppModuleSettings], Telerik.Sitefinity.Services.AppModuleSettings)
+HResult : -2147024809
+Stack Trace :    at Telerik.Sitefinity.Services.Web.Services.ModulesService.ValidateModule(ModuleViewModel module, ConfigElementDictionary`2 configElementDictionary, AppModuleSettings moduleSettings)
+   at Telerik.Sitefinity.Services.Web.Services.ModulesService.AddStaticModule(ModuleViewModel module)
+   at Telerik.Sitefinity.Services.Web.Services.ModulesService.ExecuteStaticModuleOperation(ModuleViewModel module, ModuleOperation operation)
+   at Telerik.Sitefinity.Services.Web.Services.ModulesService.Execute(ModuleViewModel module, ModuleOperation operation)
+   at SyncInvokeExecute(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/27/2022 9:14:19 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132877835070155826
+ThreadIdentity : 
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/Services/ModulesService/modules?operation=0
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132877835070155826
+
+ProcessId: 17628
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:16476
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 1/27/2022 9:14:48 PM
+
+Message: HandlingInstanceID: 2fd090fe-5c79-4085-b274-10383d1d4b79
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+01/27/2022 15:14:48
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not load type: MyModuleProject.MyModule, please verify the name.
+Source : Telerik.Sitefinity
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ValidateModule(Telerik.Sitefinity.Services.Web.Services.ViewModel.ModuleViewModel, Telerik.Sitefinity.Configuration.ConfigElementDictionary`2[System.String,Telerik.Sitefinity.Services.AppModuleSettings], Telerik.Sitefinity.Services.AppModuleSettings)
+HResult : -2147024809
+Stack Trace :    at Telerik.Sitefinity.Services.Web.Services.ModulesService.ValidateModule(ModuleViewModel module, ConfigElementDictionary`2 configElementDictionary, AppModuleSettings moduleSettings)
+   at Telerik.Sitefinity.Services.Web.Services.ModulesService.AddStaticModule(ModuleViewModel module)
+   at Telerik.Sitefinity.Services.Web.Services.ModulesService.ExecuteStaticModuleOperation(ModuleViewModel module, ModuleOperation operation)
+   at Telerik.Sitefinity.Services.Web.Services.ModulesService.Execute(ModuleViewModel module, ModuleOperation operation)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/27/2022 9:14:48 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132877835070155826
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/Services/ModulesService/modules?operation=0
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132877835070155826
+
+ProcessId: 17628
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11152
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 1/27/2022 9:14:48 PM
+
+Message: HandlingInstanceID: 1a66fff3-45bd-42f0-9cfd-d9a2ffdea08f
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+01/27/2022 15:14:48
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Could not load type: MyModuleProject.MyModule, please verify the name.
+Source : Telerik.Sitefinity
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ValidateModule(Telerik.Sitefinity.Services.Web.Services.ViewModel.ModuleViewModel, Telerik.Sitefinity.Configuration.ConfigElementDictionary`2[System.String,Telerik.Sitefinity.Services.AppModuleSettings], Telerik.Sitefinity.Services.AppModuleSettings)
+HResult : -2147024809
+Stack Trace :    at Telerik.Sitefinity.Services.Web.Services.ModulesService.ValidateModule(ModuleViewModel module, ConfigElementDictionary`2 configElementDictionary, AppModuleSettings moduleSettings)
+   at Telerik.Sitefinity.Services.Web.Services.ModulesService.AddStaticModule(ModuleViewModel module)
+   at Telerik.Sitefinity.Services.Web.Services.ModulesService.ExecuteStaticModuleOperation(ModuleViewModel module, ModuleOperation operation)
+   at Telerik.Sitefinity.Services.Web.Services.ModulesService.Execute(ModuleViewModel module, ModuleOperation operation)
+   at SyncInvokeExecute(Object , Object[] , Object[] )
+   at System.ServiceModel.Dispatcher.SyncMethodInvoker.Invoke(Object instance, Object[] inputs, Object[]& outputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/27/2022 9:14:48 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132877835070155826
+ThreadIdentity : 
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/Services/ModulesService/modules?operation=0
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132877835070155826
+
+ProcessId: 17628
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11152
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: b322f722-fd8d-4ca2-9b9f-327cfc418086
+
+Timestamp: 1/27/2022 9:36:24 PM
+
+Message: HandlingInstanceID: dc0756c2-13ae-4800-af3a-2f296c8f50cf
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+01/27/2022 15:36:24
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An item with the same key has already been added.
+Source : mscorlib
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowArgumentException(System.ExceptionResource)
+HResult : -2147024809
+Stack Trace :    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.Add(TKey key, TElement element)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteConfig()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteClientCredentials()
+   at Telerik.Sitefinity.Analytics.Infrastructure.Services.AnalyticsPermissionsService.ApplicationIsConfigured(Boolean useBackupFiles)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Web.UI.AnalyticsTimeline.AnalyticsTimelineDashboard.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/27/2022 9:36:24 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132877926722605399
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/dashboard
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132877926722605399
+
+ProcessId: 24152
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11236
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 8104bada-371f-4759-9a50-bec4db5697b8
+
+Timestamp: 1/27/2022 9:57:13 PM
+
+Message: HandlingInstanceID: fc1d3f5d-eb9b-413a-b593-4feafc143b62
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+01/27/2022 15:57:13
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Insert(TKey, TValue, Boolean)
+HResult : -2147467261
+Stack Trace :    at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.Add(TKey key, TElement element)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteConfig()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteClientCredentials()
+   at Telerik.Sitefinity.Analytics.Infrastructure.Services.AnalyticsPermissionsService.ApplicationIsConfigured(Boolean useBackupFiles)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Web.UI.AnalyticsTimeline.AnalyticsTimelineDashboard.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/27/2022 9:57:13 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132877940092940396
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/dashboard
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132877940092940396
+
+ProcessId: 28228
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:13376
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 1/27/2022 10:03:43 PM
+
+Message: HandlingInstanceID: ae6e22ed-c164-4471-8921-eae0d479f8c6
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+01/27/2022 16:03:43
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The view 'Default' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/BugTrackerWidget/Default.cshtml
+~/Views/Shared/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml
+~/Views/BugTrackerWidget/Default.aspx
+~/Views/BugTrackerWidget/Default.ascx
+~/Views/Shared/Default.aspx
+~/Views/Shared/Default.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Views/BugTrackerWidget/Default.vbhtml
+~/Views/Shared/Default.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+Source : System.Web.Mvc
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+HResult : -2146233079
+Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/27/2022 10:03:43 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132877940092940396
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/about-us/Action/Edit/en
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132877940092940396
+
+ProcessId: 28228
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:20888
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 06ee7e2c-4afe-4e8f-8961-2b63c0b1eda6
+
+Timestamp: 1/28/2022 2:29:34 PM
+
+Message: HandlingInstanceID: 0613e2f8-2f94-41a4-84cd-fed3c3d95f41
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+01/28/2022 08:29:34
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The view 'Default' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/BugTrackerWidget/Default.cshtml
+~/Views/Shared/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml
+~/Views/BugTrackerWidget/Default.aspx
+~/Views/BugTrackerWidget/Default.ascx
+~/Views/Shared/Default.aspx
+~/Views/Shared/Default.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Views/BugTrackerWidget/Default.vbhtml
+~/Views/Shared/Default.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+Source : System.Web.Mvc
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+HResult : -2146233079
+Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/28/2022 2:29:34 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132878535043487851
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/about-us/Action/Edit/en
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132878535043487851
+
+ProcessId: 17796
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:28320
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: b2518c55-4307-45e9-ab9e-24321b1fa822
+
+Timestamp: 1/28/2022 2:30:49 PM
+
+Message: HandlingInstanceID: 87f80b36-0cb1-4901-8573-041e25015301
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+01/28/2022 08:30:49
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The view 'Default' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/BugTrackerWidget/Default.cshtml
+~/Views/Shared/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml
+~/Views/BugTrackerWidget/Default.aspx
+~/Views/BugTrackerWidget/Default.ascx
+~/Views/Shared/Default.aspx
+~/Views/Shared/Default.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Views/BugTrackerWidget/Default.vbhtml
+~/Views/Shared/Default.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+Source : System.Web.Mvc
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+HResult : -2146233079
+Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/28/2022 2:30:49 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132878537970465799
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/about-us/Action/Edit/en
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132878537970465799
+
+ProcessId: 28568
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:4020
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 1/28/2022 2:31:29 PM
+
+Message: HandlingInstanceID: 7ed19fbb-1894-4c95-8821-d654b7e71f10
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+01/28/2022 08:31:29
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The view 'Default' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/BugTrackerWidget/Default.cshtml
+~/Views/Shared/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml
+~/Views/BugTrackerWidget/Default.aspx
+~/Views/BugTrackerWidget/Default.ascx
+~/Views/Shared/Default.aspx
+~/Views/Shared/Default.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Views/BugTrackerWidget/Default.vbhtml
+~/Views/Shared/Default.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+Source : System.Web.Mvc
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+HResult : -2146233079
+Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/28/2022 2:31:29 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132878537970465799
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/about-us/Action/Edit/en
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132878537970465799
+
+ProcessId: 28568
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:22340
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 1/28/2022 2:31:37 PM
+
+Message: HandlingInstanceID: 25fd545b-efdc-416c-9c5e-ef3ae276e664
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+01/28/2022 08:31:37
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The view 'Default' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/BugTrackerWidget/Default.cshtml
+~/Views/Shared/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml
+~/Views/BugTrackerWidget/Default.aspx
+~/Views/BugTrackerWidget/Default.ascx
+~/Views/Shared/Default.aspx
+~/Views/Shared/Default.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Views/BugTrackerWidget/Default.vbhtml
+~/Views/Shared/Default.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+Source : System.Web.Mvc
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+HResult : -2146233079
+Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/28/2022 2:31:37 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132878537970465799
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/about-us/Action/Edit/en
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132878537970465799
+
+ProcessId: 28568
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:22340
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 50647279-1d4d-477b-aae1-0c811098229e
+
+Timestamp: 1/28/2022 2:32:38 PM
+
+Message: HandlingInstanceID: 7054d823-2912-4bef-a87a-a1ffb3323be8
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+01/28/2022 08:32:38
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The view 'Default' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/BugTrackerWidget/Default.cshtml
+~/Views/Shared/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml
+~/Views/BugTrackerWidget/Default.aspx
+~/Views/BugTrackerWidget/Default.ascx
+~/Views/Shared/Default.aspx
+~/Views/Shared/Default.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Views/BugTrackerWidget/Default.vbhtml
+~/Views/Shared/Default.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+Source : System.Web.Mvc
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+HResult : -2146233079
+Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/28/2022 2:32:38 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132878537970465799
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/about-us
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132878537970465799
+
+ProcessId: 28568
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:21928
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: dde17a7a-8f76-4d89-bf4b-5f49c7941b5f
+
+Timestamp: 1/28/2022 2:35:37 PM
+
+Message: HandlingInstanceID: 1d30d4bd-19c1-4a96-b08c-86093fea64a4
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+01/28/2022 08:35:37
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The view 'Default' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/BugTrackerWidget/Default.cshtml
+~/Views/Shared/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml
+~/Views/BugTrackerWidget/Default.aspx
+~/Views/BugTrackerWidget/Default.ascx
+~/Views/Shared/Default.aspx
+~/Views/Shared/Default.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Views/BugTrackerWidget/Default.vbhtml
+~/Views/Shared/Default.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+Source : System.Web.Mvc
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+HResult : -2146233079
+Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/28/2022 2:35:37 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132878537970465799
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/about-us
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132878537970465799
+
+ProcessId: 28568
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:15092
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: d218cf04-e142-4e2e-b270-d9eb71469857
+
+Timestamp: 1/28/2022 2:36:39 PM
+
+Message: HandlingInstanceID: 3b75e583-5efe-4c9a-911a-1b7491a739cf
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+01/28/2022 08:36:39
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The view 'Default' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/BugTrackerWidget/Default.cshtml
+~/Views/Shared/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml
+~/Views/BugTrackerWidget/Default.aspx
+~/Views/BugTrackerWidget/Default.ascx
+~/Views/Shared/Default.aspx
+~/Views/Shared/Default.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Views/BugTrackerWidget/Default.vbhtml
+~/Views/Shared/Default.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+Source : System.Web.Mvc
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+HResult : -2146233079
+Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/28/2022 2:36:39 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132878537970465799
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/about-us
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132878537970465799
+
+ProcessId: 28568
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23096
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 9d11112a-1a8b-47fb-a675-99f697387cbe
+
+Timestamp: 1/28/2022 2:36:46 PM
+
+Message: HandlingInstanceID: 704fab97-0239-4432-90b6-f8cbd509ebe7
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+01/28/2022 08:36:46
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The view 'Default' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/BugTrackerWidget/Default.cshtml
+~/Views/Shared/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml
+~/Views/BugTrackerWidget/Default.aspx
+~/Views/BugTrackerWidget/Default.ascx
+~/Views/Shared/Default.aspx
+~/Views/Shared/Default.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Views/BugTrackerWidget/Default.vbhtml
+~/Views/Shared/Default.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+Source : System.Web.Mvc
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+HResult : -2146233079
+Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/28/2022 2:36:46 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132878537970465799
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/about-us
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132878537970465799
+
+ProcessId: 28568
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:12412
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 99119824-9516-49e6-b341-9ef992282b6c
+
+Timestamp: 1/28/2022 2:36:52 PM
+
+Message: HandlingInstanceID: b8f3886e-64d1-45f7-9a9b-99ab5d3dfa78
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+01/28/2022 08:36:52
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The view 'Default' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/BugTrackerWidget/Default.cshtml
+~/Views/Shared/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml
+~/Views/BugTrackerWidget/Default.aspx
+~/Views/BugTrackerWidget/Default.ascx
+~/Views/Shared/Default.aspx
+~/Views/Shared/Default.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Views/BugTrackerWidget/Default.vbhtml
+~/Views/Shared/Default.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+Source : System.Web.Mvc
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+HResult : -2146233079
+Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/28/2022 2:36:52 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132878537970465799
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/about-us
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132878537970465799
+
+ProcessId: 28568
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:17436
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: a5c3a1c6-c527-4551-84e2-a565b9795543
+
+Timestamp: 1/28/2022 2:36:57 PM
+
+Message: HandlingInstanceID: 3da59d01-80d0-4103-87e8-f389ef740dbc
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+01/28/2022 08:36:57
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The view 'Default' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/BugTrackerWidget/Default.cshtml
+~/Views/Shared/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml
+~/Views/BugTrackerWidget/Default.aspx
+~/Views/BugTrackerWidget/Default.ascx
+~/Views/Shared/Default.aspx
+~/Views/Shared/Default.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.ascx#Bootstrap4.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.aspx#Bootstrap4.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.ascx#Bootstrap4.ascx
+~/Views/BugTrackerWidget/Default.vbhtml
+~/Views/Shared/Default.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/BugTrackerWidget/Default.vbhtml#Bootstrap4.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.cshtml#Bootstrap4.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/Default.vbhtml#Bootstrap4.vbhtml
+Source : System.Web.Mvc
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+HResult : -2146233079
+Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/28/2022 2:36:57 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132878537970465799
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/about-us
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132878537970465799
+
+ProcessId: 28568
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:22632
+
+Extended Properties: 
+----------------------------------------

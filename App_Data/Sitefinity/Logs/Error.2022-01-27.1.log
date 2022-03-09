@@ -1,0 +1,1061 @@
+----------------------------------------
+ActivityId: b41f6d05-c3d4-4629-89f4-d07b8f945592
+
+Timestamp: 1/26/2022 7:36:07 PM
+
+Message: HandlingInstanceID: 01719223-b37b-40f3-9ace-cddc98df209c
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+01/26/2022 13:36:07
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An item with the same key has already been added.
+Source : mscorlib
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowArgumentException(System.ExceptionResource)
+HResult : -2147024809
+Stack Trace :    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.Add(TKey key, TElement element)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteConfig()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteClientCredentials()
+   at Telerik.Sitefinity.Analytics.Infrastructure.Services.AnalyticsPermissionsService.ApplicationIsConfigured(Boolean useBackupFiles)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Web.UI.AnalyticsTimeline.AnalyticsTimelineDashboard.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/26/2022 7:36:07 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132876990016457844
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/dashboard
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132876990016457844
+
+ProcessId: 21320
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:26924
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 1/26/2022 7:56:20 PM
+
+Message: HandlingInstanceID: 2f3f1525-79d5-459a-bdae-56f1d1ebc962
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+01/26/2022 13:56:20
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : ContentLocationsTracker: Unable to get locations from 'Telerik.Sitefinity.Mvc.Proxy.MvcControllerProxy'
+Source : 
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : 
+HResult : -2146233088
+Stack Trace : The stack trace is unavailable.
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/26/2022 7:56:20 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132876994274511204
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/sf/system/$batch?sf_culture=en&sf_site=33fc704e-e88b-4dff-900e-615be5e71af1
+	Inner Exception
+	---------------
+	Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : Id cannot be Empty Guid
+	Source : Unity_ILEmit_DynamicClasses
+	Help link : 
+	ParamName : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Object GetItem(System.Type, System.Guid)
+	HResult : -2147024809
+	Stack Trace :    at DynamicModule.ns.Wrapped_OpenAccessLibrariesProvider_7e48f1da6c394ab98f9f1f69a5712748.GetItem(Type itemType, Guid id)
+	   at Telerik.Sitefinity.Data.ManagerBase`1.GetItem(Type itemType, Guid id)
+	   at Telerik.Sitefinity.Frontend.Media.Mvc.Helpers.ContentLocationHelper.GetLocations(Guid id, String providerName, Type mediaType)
+	   at Telerik.Sitefinity.Frontend.Media.Mvc.Models.Image.ImageModel.GetLocations()
+	   at Telerik.Sitefinity.Frontend.Media.Mvc.Controllers.ImageController.GetLocations()
+	   at Telerik.Sitefinity.ContentLocations.ContentLocationsTracker.PageControlTrackingContext.TryGetLocations(CultureInfo culture, IEnumerable`1& locations)
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132876994274511204
+
+ProcessId: 30984
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:19300
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 13234d1d-e37d-406a-91b9-6b7824fed365
+
+Timestamp: 1/27/2022 4:37:23 PM
+
+Message: HandlingInstanceID: 7f927121-9b6a-4d0b-9239-79e8cb97d0c6
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/27/2022 10:37:23
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/FlightData/Index.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/27/2022 4:37:23 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132877749883794880
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Mvc/Views/FlightData/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132877749883794880
+
+ProcessId: 1624
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:1704
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 1/27/2022 4:46:29 PM
+
+Message: HandlingInstanceID: 1ba37a3f-8dda-465a-8f75-c16dae0ce620
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+01/27/2022 10:46:29
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The model item passed into the dictionary is of type 'RealSiteFinityFirst.Mvc.Models.FlightDataModel', but this dictionary requires a model item of type 'RealSiteFinityFirst.Mvc.ViewModels.LaunchViewModel'.
+Source : System.Web.Mvc
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void SetModel(System.Object)
+HResult : -2146233079
+Stack Trace :    at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+   at System.Web.Mvc.ViewDataDictionary..ctor(ViewDataDictionary dictionary)
+   at System.Web.Mvc.WebViewPage`1.SetViewData(ViewDataDictionary viewData)
+   at RazorGenerator.Mvc.PrecompiledMvcView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/27/2022 4:46:29 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132877749883794880
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/spacex-launch/Action/Edit/en
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132877749883794880
+
+ProcessId: 1624
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:14064
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 18ea0892-a8b3-43dc-b4b5-c0902bf067ba
+
+Timestamp: 1/27/2022 4:47:23 PM
+
+Message: HandlingInstanceID: f2e6ab49-a93b-42fe-8fe5-d73db7298177
+An exception of type 'System.InvalidOperationException' occurred and was caught.
+--------------------------------------------------------------------------------
+01/27/2022 10:47:23
+Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : The model item passed into the dictionary is of type 'RealSiteFinityFirst.Mvc.Models.FlightDataModel', but this dictionary requires a model item of type 'RealSiteFinityFirst.Mvc.ViewModels.LaunchViewModel'.
+Source : System.Web.Mvc
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void SetModel(System.Object)
+HResult : -2146233079
+Stack Trace :    at System.Web.Mvc.ViewDataDictionary`1.SetModel(Object value)
+   at System.Web.Mvc.ViewDataDictionary..ctor(ViewDataDictionary dictionary)
+   at System.Web.Mvc.WebViewPage`1.SetViewData(ViewDataDictionary viewData)
+   at RazorGenerator.Mvc.PrecompiledMvcView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/27/2022 4:47:23 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132877749883794880
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/spacex-launch
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132877749883794880
+
+ProcessId: 1624
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:18492
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 93516db7-0981-4dc6-a267-09a6c4fdcd91
+
+Timestamp: 1/27/2022 5:00:13 PM
+
+Message: HandlingInstanceID: b813a083-4cdc-48e0-979b-f61ae4efe55f
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+01/27/2022 11:00:13
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An item with the same key has already been added.
+Source : mscorlib
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowArgumentException(System.ExceptionResource)
+HResult : -2147024809
+Stack Trace :    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.Add(TKey key, TElement element)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteConfig()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteClientCredentials()
+   at Telerik.Sitefinity.Analytics.Infrastructure.Services.AnalyticsPermissionsService.ApplicationIsConfigured(Boolean useBackupFiles)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Web.UI.AnalyticsTimeline.AnalyticsTimelineDashboard.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/27/2022 5:00:13 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132877761490446132
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/dashboard
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132877761490446132
+
+ProcessId: 22220
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:22948
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: aeada13b-c000-4691-93e5-0b37db206f15
+
+Timestamp: 1/27/2022 5:25:48 PM
+
+Message: HandlingInstanceID: a4b1c358-8fe9-4378-bbe8-a3aaeed58cbf
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/27/2022 11:25:48
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/FlightData/Index.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/27/2022 5:25:48 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132877778944490123
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Mvc/Views/FlightData/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132877778944490123
+
+ProcessId: 16836
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:4316
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: dd1464c0-8fda-48c8-ad26-6fa0ba6b73e9
+
+Timestamp: 1/27/2022 5:27:38 PM
+
+Message: HandlingInstanceID: 0cb7875c-8073-46bb-8b6c-c30b70297db1
+An exception of type 'System.Web.HttpCompileException' occurred and was caught.
+-------------------------------------------------------------------------------
+01/27/2022 11:27:38
+Type : System.Web.HttpCompileException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : c:\Users\zwilson\AppData\Local\Temp\Temporary ASP.NET Files\vs\a28cd497\66a1d28e\App_Web_index.cshtml#bootstrap4.cshtml.ed8d408.nxtqn4j2.0.cs(93): error CS1061: 'RealSiteFinityFirst.Mvc.ViewModels.LaunchViewModel' does not contain a definition for 'PayLoads' and no extension method 'PayLoads' accepting a first argument of type 'RealSiteFinityFirst.Mvc.ViewModels.LaunchViewModel' could be found (are you missing a using directive or an assembly reference?)
+Source : System.Web
+Help link : 
+Results : System.CodeDom.Compiler.CompilerResults
+SourceCode : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+HResult : -2147467259
+Stack Trace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Compilation.CompilationPerformanceRazorView.RenderWithPerformanceMeasurement(ViewContext viewContext, TextWriter writer)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Compilation.CompilationPerformanceRazorView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/27/2022 5:27:38 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132877778944490123
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/spacex-launch
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132877778944490123
+
+ProcessId: 16836
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11940
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 7597c0d2-1902-457f-b6e8-fa266af8ec91
+
+Timestamp: 1/27/2022 5:27:43 PM
+
+Message: HandlingInstanceID: 3e1b8396-7a98-4e17-b0ab-e49f00bdb6d1
+An exception of type 'System.Web.HttpCompileException' occurred and was caught.
+-------------------------------------------------------------------------------
+01/27/2022 11:27:43
+Type : System.Web.HttpCompileException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : c:\Users\zwilson\AppData\Local\Temp\Temporary ASP.NET Files\vs\a28cd497\66a1d28e\App_Web_index.cshtml#bootstrap4.cshtml.ed8d408.nxtqn4j2.0.cs(93): error CS1061: 'RealSiteFinityFirst.Mvc.ViewModels.LaunchViewModel' does not contain a definition for 'PayLoads' and no extension method 'PayLoads' accepting a first argument of type 'RealSiteFinityFirst.Mvc.ViewModels.LaunchViewModel' could be found (are you missing a using directive or an assembly reference?)
+Source : System.Web
+Help link : 
+Results : System.CodeDom.Compiler.CompilerResults
+SourceCode : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+HResult : -2147467259
+Stack Trace :    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Compilation.CompilationPerformanceRazorView.ShouldMeasurePerformance(String virtualPath)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Compilation.CompilationPerformanceRazorView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/27/2022 5:27:43 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132877778944490123
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/spacex-launch
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132877778944490123
+
+ProcessId: 16836
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:21104
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: ac77e1a7-e106-43bf-818f-f6d22654e1fd
+
+Timestamp: 1/27/2022 5:34:29 PM
+
+Message: HandlingInstanceID: b2f197f6-a4ce-4aa4-99e3-99d515f4566d
+An exception of type 'System.AggregateException' occurred and was caught.
+-------------------------------------------------------------------------
+01/27/2022 11:34:29
+Type : System.AggregateException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : One or more errors occurred.
+Source : mscorlib
+Help link : 
+InnerExceptions : System.Collections.ObjectModel.ReadOnlyCollection`1[System.Exception]
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowIfExceptional(Boolean)
+HResult : -2146233088
+Stack Trace :    at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at RealSiteFinityFirst.Mvc.Models.FlightDataModel.GetViewModel() in C:\Users\zwilson\source\repos\RealSiteFinityFirst\RealSiteFinityFirst\MVC\Models\FlightDataModel.cs:line 19
+   at RealSiteFinityFirst.Mvc.Controllers.FlightDataController.Index() in C:\Users\zwilson\source\repos\RealSiteFinityFirst\RealSiteFinityFirst\MVC\Controllers\FlightDataController.cs:line 21
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_0.<InvokeActionMethodWithFilters>b__0()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)
+   at System.Web.Mvc.ControllerActionInvoker.<>c__DisplayClass24_1.<InvokeActionMethodWithFilters>b__2()
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/27/2022 5:34:29 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132877784122352198
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/spacex-launch
+	Inner Exception
+	---------------
+	Type : Newtonsoft.Json.JsonSerializationException, Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed
+	Message : Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'Telerik.Sitefinity.Lists.Model.List' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path 'payloads', line 1, position 909.
+	Source : Newtonsoft.Json
+	Help link : 
+	LineNumber : 1
+	LinePosition : 909
+	Path : payloads
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Newtonsoft.Json.Serialization.JsonArrayContract EnsureArrayContract(Newtonsoft.Json.JsonReader, System.Type, Newtonsoft.Json.Serialization.JsonContract)
+	HResult : -2146233088
+	Stack Trace :    at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+	   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+	   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+	   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.SetPropertyValue(JsonProperty property, JsonConverter propertyConverter, JsonContainerContract containerContract, JsonProperty containerProperty, JsonReader reader, Object target)
+	   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateObject(Object newObject, JsonReader reader, JsonObjectContract contract, JsonProperty member, String id)
+	   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+	   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+	   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+	   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+	   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+	   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+	   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+	   at RealSiteFinityFirst.Mvc.Models.FlightDataModel.<GetLaunchAsync>d__1.MoveNext() in C:\Users\zwilson\source\repos\RealSiteFinityFirst\RealSiteFinityFirst\MVC\Models\FlightDataModel.cs:line 28
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132877784122352198
+
+ProcessId: 9660
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23108
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 11ce7fa4-6127-4e89-991d-f45f3d5b7e30
+
+Timestamp: 1/27/2022 5:44:23 PM
+
+Message: HandlingInstanceID: 9683d40d-b55d-49fe-a6b4-f58ad2102c71
+An exception of type 'System.ArgumentOutOfRangeException' occurred and was caught.
+----------------------------------------------------------------------------------
+01/27/2022 11:44:23
+Type : System.ArgumentOutOfRangeException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Source : mscorlib
+Help link : 
+ActualValue : 
+ParamName : index
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowArgumentOutOfRangeException(System.ExceptionArgument, System.ExceptionResource)
+HResult : -2146233086
+Stack Trace :    at System.ThrowHelper.ThrowArgumentOutOfRangeException(ExceptionArgument argument, ExceptionResource resource)
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at ASP._MVC_Views_FlightData_Index_cshtml.Execute() in C:\Users\zwilson\source\repos\RealSiteFinityFirst\RealSiteFinityFirst\obj\CodeGen\MVC\MVC\Views\FlightData\Index.cshtml:line 7
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at RazorGenerator.Mvc.PrecompiledMvcView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/27/2022 5:44:23 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132877789451276307
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/spacex-launch
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132877789451276307
+
+ProcessId: 18540
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:2784
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: ac400d9b-32f9-4d1c-a634-0836b32f6f28
+
+Timestamp: 1/27/2022 5:53:22 PM
+
+Message: HandlingInstanceID: d698f00b-d34d-49b5-95f7-0d2521507163
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+01/27/2022 11:53:22
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An item with the same key has already been added.
+Source : mscorlib
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowArgumentException(System.ExceptionResource)
+HResult : -2147024809
+Stack Trace :    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.Add(TKey key, TElement element)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteConfig()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteClientCredentials()
+   at Telerik.Sitefinity.Analytics.Infrastructure.Services.AnalyticsPermissionsService.ApplicationIsConfigured(Boolean useBackupFiles)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Web.UI.AnalyticsTimeline.AnalyticsTimelineDashboard.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/27/2022 5:53:22 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132877792148752087
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/dashboard
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132877792148752087
+
+ProcessId: 13404
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:22496
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 69818349-c47c-4863-ad34-6bd6b9d8b59b
+
+Timestamp: 1/27/2022 6:59:51 PM
+
+Message: HandlingInstanceID: 68a22ed8-721d-402c-bd28-20196559d917
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+01/27/2022 12:59:51
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An item with the same key has already been added.
+Source : mscorlib
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowArgumentException(System.ExceptionResource)
+HResult : -2147024809
+Stack Trace :    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.Add(TKey key, TElement element)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteConfig()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteClientCredentials()
+   at Telerik.Sitefinity.Analytics.Infrastructure.Services.AnalyticsPermissionsService.ApplicationIsConfigured(Boolean useBackupFiles)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Web.UI.AnalyticsTimeline.AnalyticsTimelineDashboard.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/27/2022 6:59:51 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132877835070155826
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/dashboard
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132877835070155826
+
+ProcessId: 17628
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:15468
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 6c46adbf-2b15-401d-8bee-161c09197005
+
+Timestamp: 1/27/2022 7:02:01 PM
+
+Message: HandlingInstanceID: c2ab4ab2-61b6-407b-b5b2-d1ab647dc106
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+01/27/2022 13:02:01
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Exception has been thrown by the target of an invocation.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.CallHandleUnknownAction(String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/27/2022 7:02:01 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132877835070155826
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/home/2022/01/27/breaking-news
+	Inner Exception
+	---------------
+	Type : System.InvalidOperationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : The view '2022' or its master was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/NavigationHeader/2022.cshtml
+~/Views/Shared/2022.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/NavigationHeader/2022.cshtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/2022.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/NavigationHeader/2022.cshtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/2022.cshtml
+~/Views/NavigationHeader/2022.aspx
+~/Views/NavigationHeader/2022.ascx
+~/Views/Shared/2022.aspx
+~/Views/Shared/2022.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/NavigationHeader/2022.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/NavigationHeader/2022.ascx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/2022.aspx
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/2022.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/NavigationHeader/2022.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/NavigationHeader/2022.ascx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/2022.aspx
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/2022.ascx
+~/Views/NavigationHeader/2022.vbhtml
+~/Views/Shared/2022.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/NavigationHeader/2022.vbhtml
+~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Shared/2022.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/NavigationHeader/2022.vbhtml
+~/Frontend-Assembly/Telerik.Sitefinity.Frontend/Mvc/Views/Shared/2022.vbhtml
+	Source : System.Web.Mvc
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Web.Mvc.ViewEngineResult FindView(System.Web.Mvc.ControllerContext)
+	HResult : -2146233079
+	Stack Trace :    at System.Web.Mvc.ViewResult.FindView(ControllerContext context)
+	   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+	   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+	   at RealSiteFinityFirst.Mvc.Controllers.NavigationHeaderController.HandleUnknownAction(String actionName) in C:\Users\zwilson\source\repos\RealSiteFinityFirst\RealSiteFinityFirst\MVC\Controllers\NavigationHeaderController.cs:line 27
+
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132877835070155826
+
+ProcessId: 17628
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:13884
+
+Extended Properties: 
+----------------------------------------

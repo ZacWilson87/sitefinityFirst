@@ -1,0 +1,186 @@
+----------------------------------------
+ActivityId: 6336ae44-cabd-4d9b-9913-f6224a772077
+
+Timestamp: 2/6/2022 8:41:16 PM
+
+Message: HandlingInstanceID: 7ecade0f-73d3-4d75-ad11-e589eb99a4b8
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+02/06/2022 14:41:16
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/Slider/Index.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 2/6/2022 8:41:16 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132884751688514312
+ThreadIdentity : Anonymous
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Mvc/Views/Slider/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132884751688514312
+
+ProcessId: 30236
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:26136
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 8ed3d6ef-9b80-4265-be34-d8ff0e7690d1
+
+Timestamp: 2/7/2022 6:40:52 PM
+
+Message: HandlingInstanceID: 1bd986ba-5ef3-427f-922b-e6acf9ee5581
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+02/07/2022 12:40:52
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/Slider/Index.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 2/7/2022 6:40:52 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132887327797633513
+ThreadIdentity : Anonymous
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Mvc/Views/Slider/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132887327797633513
+
+ProcessId: 5176
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:22216
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: f696b570-db54-4a6d-9a25-2ed444078d6b
+
+Timestamp: 2/7/2022 7:59:53 PM
+
+Message: HandlingInstanceID: 081a5820-55cc-4fa6-9707-7163af16c702
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+02/07/2022 13:59:53
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An item with the same key has already been added.
+Source : mscorlib
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowArgumentException(System.ExceptionResource)
+HResult : -2147024809
+Stack Trace :    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.Add(TKey key, TElement element)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteConfig()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteClientCredentials()
+   at Telerik.Sitefinity.Analytics.Infrastructure.Services.AnalyticsPermissionsService.ApplicationIsConfigured(Boolean useBackupFiles)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Web.UI.AnalyticsTimeline.AnalyticsTimelineDashboard.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 2/7/2022 7:59:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132887329324589652
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/dashboard
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132887329324589652
+
+ProcessId: 6888
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:12748
+
+Extended Properties: 
+----------------------------------------

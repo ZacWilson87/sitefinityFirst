@@ -1,0 +1,106 @@
+----------------------------------------
+Timestamp: 1/27/2022 9:17:27 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2022 9:17:27 PM
+
+Message: Adding a column(s) on an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2022 9:17:27 PM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2022 9:17:27 PM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2022 9:17:27 PM
+
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.BugTracker.Project
+CREATE TABLE [bugtracker_project] (
+    [base_id] uniqueidentifier NOT NULL,
+    [Title] NVARCHAR(255) NULL,             -- Project.Title
+    [Description] NVARCHAR(MAX) NULL,       -- Project.Description
+    CONSTRAINT [pk_bugtracker_project] PRIMARY KEY ([base_id])
+)
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2022 9:17:27 PM
+
+Message: -- add column for field <internal-class-id>
+ALTER TABLE [sf_dynamic_content] ADD [voa_class] int NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2022 9:17:27 PM
+
+Message: UPDATE [sf_dynamic_content] SET [voa_class] = 0
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2022 9:17:27 PM
+
+Message: ALTER TABLE [sf_dynamic_content] ALTER COLUMN [voa_class] int NOT NULL
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2022 9:19:41 PM
+
+Message: Db Migration Complexity: Extending
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2022 9:19:41 PM
+
+Message: Adding a foreign key constraint(s) to an existing table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2022 9:19:41 PM
+
+Message: Adding a foreign key constraint(s) to a new table(s), the create table statement(s) is included as well.
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2022 9:19:41 PM
+
+Message: Adding a new table(s).
+
+
+----------------------------------------
+----------------------------------------
+Timestamp: 1/27/2022 9:19:41 PM
+
+Message: -- Telerik.Sitefinity.DynamicTypes.Model.BugTracker.Bug
+CREATE TABLE [bugtracker_bug] (
+    [base_id] uniqueidentifier NOT NULL,
+    [parent_id] uniqueidentifier NULL,      -- Bug.sfParent
+    [Title] NVARCHAR(255) NULL,             -- Bug.Title
+    [Priority] NVARCHAR(255) NULL,          -- Bug.Priority
+    [Description] NVARCHAR(MAX) NULL,       -- Bug.Description
+    CONSTRAINT [pk_bugtracker_bug] PRIMARY KEY ([base_id])
+)
+
+
+----------------------------------------

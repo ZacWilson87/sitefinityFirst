@@ -1,0 +1,582 @@
+----------------------------------------
+ActivityId: 38ccff5e-65ac-4e6a-8e7a-f77892af6e0c
+
+Timestamp: 1/31/2022 4:08:36 PM
+
+Message: HandlingInstanceID: 815ba8cb-842b-4c09-8a9a-4e6ff3bcf178
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/31/2022 10:08:36
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/HeaderWidget/Index.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/31/2022 4:08:36 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132881188548957282
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Mvc/Views/HeaderWidget/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132881188548957282
+
+ProcessId: 23500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:24480
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: dcb7b6c7-eccd-4088-9084-fb830f179deb
+
+Timestamp: 1/31/2022 4:11:28 PM
+
+Message: HandlingInstanceID: 90f94747-a98b-45b1-9b5e-da3513a20f86
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/31/2022 10:11:28
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/HeaderWidget/Index.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/31/2022 4:11:28 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132881188548957282
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Mvc/Views/HeaderWidget/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132881188548957282
+
+ProcessId: 23500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:15464
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 85f37f10-7d70-432a-963e-03b59591bc65
+
+Timestamp: 1/31/2022 4:12:04 PM
+
+Message: HandlingInstanceID: 242d732e-18b6-4be2-8a22-9fcff3b061ba
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+01/31/2022 10:12:04
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An item with the same key has already been added.
+Source : mscorlib
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowArgumentException(System.ExceptionResource)
+HResult : -2147024809
+Stack Trace :    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.Add(TKey key, TElement element)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteConfig()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteClientCredentials()
+   at Telerik.Sitefinity.Analytics.Infrastructure.Services.AnalyticsPermissionsService.ApplicationIsConfigured(Boolean useBackupFiles)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Web.UI.AnalyticsTimeline.AnalyticsTimelineDashboard.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/31/2022 4:12:04 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132881188548957282
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/dashboard
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132881188548957282
+
+ProcessId: 23500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:15464
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 1/31/2022 4:17:32 PM
+
+Message: HandlingInstanceID: 2632fdd3-f6a9-4678-af62-3dbc6e58df01
+An exception of type 'Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------------------
+01/31/2022 10:17:32
+Type : Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException, Telerik.Sitefinity, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+IsDetailXhtml : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowExceptionIfLocked(System.Guid, Telerik.Sitefinity.Modules.Pages.DesignMediaType, System.String, Boolean)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+DataContractDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorValidationExtensions.ThrowExceptionIfLocked(Guid pageId, DesignMediaType mediaType, String operationName, Boolean checkLive)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorValidationExtensions.ValidateChange(Guid pageId, DesignMediaType mediaType, String operationName, Boolean checkLive, Boolean validateChange)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorOperationValidationAttribute.BeforeCall(String operationName, Object[] inputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InspectInputsCore(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/31/2022 4:17:32 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132881188548957282
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/Services/Pages/ZoneEditorService.svc/Template/11d00dbe-2760-4aba-9052-941807b44624/?package=Bootstrap4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132881188548957282
+
+ProcessId: 23500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:20556
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 1/31/2022 4:18:03 PM
+
+Message: HandlingInstanceID: 930b33aa-db77-4b16-9af8-580ea61e83e2
+An exception of type 'Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------------------
+01/31/2022 10:18:03
+Type : Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException, Telerik.Sitefinity, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Deleted: 00000000-0000-0000-0000-000000000000:UpdateControlState
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : Deleted: 00000000-0000-0000-0000-000000000000:UpdateControlState
+IsDetailXhtml : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowExceptionIfLocked(Telerik.Sitefinity.Web.UI.ZoneEditorWebServiceArgs, System.String)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+DataContractDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorValidationExtensions.ThrowExceptionIfLocked(ZoneEditorWebServiceArgs state, String operationName)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorValidationExtensions.ValidateChange(ZoneEditorWebServiceArgs state, String operationName)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorOperationValidationAttribute.BeforeCall(String operationName, Object[] inputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InspectInputsCore(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/31/2022 4:18:03 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132881188548957282
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/Services/Pages/ZoneEditorService.svc/Control/?package=Bootstrap4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132881188548957282
+
+ProcessId: 23500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:25920
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 1/31/2022 4:18:13 PM
+
+Message: HandlingInstanceID: 16b33148-04fc-4c76-a779-7df565079467
+An exception of type 'Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException' occurred and was caught.
+--------------------------------------------------------------------------------------------------------------------
+01/31/2022 10:18:13
+Type : Telerik.Sitefinity.Modules.Pages.Web.Services.ContentLockedException, Telerik.Sitefinity, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+Message : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+Source : Telerik.Sitefinity
+Help link : 
+StatusCode : InternalServerError
+StatusDescription : Deleted: 00000000-0000-0000-0000-000000000000:DiscardTemplateDraft
+IsDetailXhtml : False
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowExceptionIfLocked(System.Guid, Telerik.Sitefinity.Modules.Pages.DesignMediaType, System.String, Boolean)
+HResult : -2146233087
+detailWriterInstance : Telerik.Sitefinity.Utilities.MS.ServiceModel.Web.WebProtocolException+DataContractDetailWriter
+Stack Trace :    at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorValidationExtensions.ThrowExceptionIfLocked(Guid pageId, DesignMediaType mediaType, String operationName, Boolean checkLive)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorValidationExtensions.ValidateChange(Guid pageId, DesignMediaType mediaType, String operationName, Boolean checkLive, Boolean validateChange)
+   at Telerik.Sitefinity.Modules.Pages.Web.Services.ZoneEditorOperationValidationAttribute.BeforeCall(String operationName, Object[] inputs)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InspectInputsCore(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.DispatchOperationRuntime.InvokeBegin(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage5(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage41(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage4(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage31(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage3(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage2(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage11(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.ImmutableDispatchRuntime.ProcessMessage1(MessageRpc& rpc)
+   at System.ServiceModel.Dispatcher.MessageRpc.Process(Boolean isOperationContextSet)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/31/2022 4:18:13 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132881188548957282
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/Services/Pages/ZoneEditorService.svc/Template/11d00dbe-2760-4aba-9052-941807b44624/?package=Bootstrap4
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132881188548957282
+
+ProcessId: 23500
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:27812
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: b4b2202a-1a27-4456-8bd5-8a1f30661fb4
+
+Timestamp: 1/31/2022 4:20:45 PM
+
+Message: HandlingInstanceID: 4c2a9f62-f40c-4a88-b41e-0bb4687b62c6
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+01/31/2022 10:20:45
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/HeaderWidget/Index.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/31/2022 4:20:45 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132881195870757042
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Mvc/Views/HeaderWidget/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132881195870757042
+
+ProcessId: 17948
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:12868
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 99bfa547-4518-46a1-bc23-6048a76702b4
+
+Timestamp: 1/31/2022 4:21:06 PM
+
+Message: HandlingInstanceID: d3320fa4-59cd-4b81-8116-c2a19c5769cb
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+01/31/2022 10:21:06
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An item with the same key has already been added.
+Source : mscorlib
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowArgumentException(System.ExceptionResource)
+HResult : -2147024809
+Stack Trace :    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.Add(TKey key, TElement element)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteConfig()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteClientCredentials()
+   at Telerik.Sitefinity.Analytics.Infrastructure.Services.AnalyticsPermissionsService.ApplicationIsConfigured(Boolean useBackupFiles)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Web.UI.AnalyticsTimeline.AnalyticsTimelineDashboard.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 1/31/2022 4:21:06 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132881195870757042
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/dashboard
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132881195870757042
+
+ProcessId: 17948
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:12868
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 485a24d3-4fd2-404f-bc1b-94e579a36b86
+
+Timestamp: 2/1/2022 2:39:42 PM
+
+Message: HandlingInstanceID: 262c6e21-1957-42ee-b1ce-fa05ebcf2c27
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+02/01/2022 08:39:42
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/HeaderWidget/Index.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 2/1/2022 2:39:42 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132881999196013304
+ThreadIdentity : Anonymous
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Mvc/Views/HeaderWidget/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132881999196013304
+
+ProcessId: 24804
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:17784
+
+Extended Properties: 
+----------------------------------------

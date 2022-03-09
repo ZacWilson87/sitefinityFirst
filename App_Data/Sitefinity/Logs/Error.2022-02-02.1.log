@@ -1,0 +1,1964 @@
+----------------------------------------
+ActivityId: e1e017b6-5e35-48c4-97e1-03499ccd3916
+
+Timestamp: 2/1/2022 5:36:24 PM
+
+Message: HandlingInstanceID: 074706a0-93d2-42fa-a5e6-58e78e655819
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+02/01/2022 11:36:24
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/Slider/Index.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 2/1/2022 5:36:24 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132882105199635984
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Mvc/Views/Slider/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132882105199635984
+
+ProcessId: 25620
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:13820
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 9aebd4d4-6971-463c-abe9-6fa5305d59f5
+
+Timestamp: 2/1/2022 5:36:53 PM
+
+Message: HandlingInstanceID: 10be4f26-5773-447a-b3dd-4c3d65d1fc21
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+02/01/2022 11:36:53
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An item with the same key has already been added.
+Source : mscorlib
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowArgumentException(System.ExceptionResource)
+HResult : -2147024809
+Stack Trace :    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.Add(TKey key, TElement element)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteConfig()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteClientCredentials()
+   at Telerik.Sitefinity.Analytics.Infrastructure.Services.AnalyticsPermissionsService.ApplicationIsConfigured(Boolean useBackupFiles)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Web.UI.AnalyticsTimeline.AnalyticsTimelineDashboard.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 2/1/2022 5:36:53 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132882105199635984
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/dashboard
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132882105199635984
+
+ProcessId: 25620
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:25920
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: cbe5535c-5cb8-42d0-9872-043b293921f2
+
+Timestamp: 2/1/2022 7:15:31 PM
+
+Message: HandlingInstanceID: 7fddd19b-6408-41ba-b905-69103335a89c
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+02/01/2022 13:15:31
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/Slider/Index.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 2/1/2022 7:15:31 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132882164705436398
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Mvc/Views/Slider/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132882164705436398
+
+ProcessId: 17404
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:32696
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: e74061a3-9b9e-4c72-a17b-ab04448f5593
+
+Timestamp: 2/1/2022 7:15:55 PM
+
+Message: HandlingInstanceID: f0b0dd50-d40c-4b97-af97-9b44d8a21875
+An exception of type 'System.NullReferenceException' occurred and was caught.
+-----------------------------------------------------------------------------
+02/01/2022 13:15:55
+Type : System.NullReferenceException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : Object reference not set to an instance of an object.
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void Insert(TKey, TValue, Boolean)
+HResult : -2147467261
+Stack Trace :    at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.Add(TKey key, TElement element)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteConfig()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteClientCredentials()
+   at Telerik.Sitefinity.Analytics.Infrastructure.Services.AnalyticsPermissionsService.ApplicationIsConfigured(Boolean useBackupFiles)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Web.UI.AnalyticsTimeline.AnalyticsTimelineDashboard.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 2/1/2022 7:15:55 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132882164705436398
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/dashboard
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132882164705436398
+
+ProcessId: 17404
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:32696
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 1e011f07-0f71-4a9d-af9a-c4d3409cfc25
+
+Timestamp: 2/1/2022 8:21:03 PM
+
+Message: HandlingInstanceID: 881f7a5e-0f2f-468c-820d-c4fc3bd8500c
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+02/01/2022 14:21:03
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An item with the same key has already been added.
+Source : mscorlib
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowArgumentException(System.ExceptionResource)
+HResult : -2147024809
+Stack Trace :    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.Add(TKey key, TElement element)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteConfig()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteClientCredentials()
+   at Telerik.Sitefinity.Analytics.Infrastructure.Services.AnalyticsPermissionsService.ApplicationIsConfigured(Boolean useBackupFiles)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Web.UI.AnalyticsTimeline.AnalyticsTimelineDashboard.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 2/1/2022 8:21:03 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132882203724790485
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/dashboard
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132882203724790485
+
+ProcessId: 1928
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11324
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 00000000-0000-0000-0000-000000000000
+
+Timestamp: 2/1/2022 8:24:16 PM
+
+Message: HandlingInstanceID: 558aff5f-f876-47cc-94ff-336578821615
+An exception of type 'System.Web.HttpCompileException' occurred and was caught.
+-------------------------------------------------------------------------------
+02/01/2022 14:24:16
+Type : System.Web.HttpCompileException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : c:\Users\zwilson\AppData\Local\Temp\Temporary ASP.NET Files\vs\a28cd497\66a1d28e\App_Web_index.cshtml#bootstrap4.cshtml.1d919b10.k7sb_pkb.0.cs(59): error CS1012: Too many characters in character literal
+Source : System.Web
+Help link : 
+Results : System.CodeDom.Compiler.CompilerResults
+SourceCode : //------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//     Runtime Version:4.0.30319.42000
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+namespace ASP {
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
+    using System.Net;
+    using System.Web;
+    using System.Web.Helpers;
+    using System.Web.Security;
+    using System.Web.UI;
+    using System.Web.WebPages;
+    using System.Web.Mvc;
+    using System.Web.Mvc.Ajax;
+    using System.Web.Mvc.Html;
+    using System.Web.Routing;
+    
+    
+    public class _Page_Frontend_Assembly_RealSiteFinityFirst_Mvc_Views_Slider_Index_cshtml_Bootstrap4_cshtml : System.Web.Mvc.WebViewPage<RealSiteFinityFirst.Mvc.Models.SliderModel> {
+        
+#line hidden
+        
+        public _Page_Frontend_Assembly_RealSiteFinityFirst_Mvc_Views_Slider_Index_cshtml_Bootstrap4_cshtml() {
+        }
+        
+        protected System.Web.HttpApplication ApplicationInstance {
+            get {
+                return ((System.Web.HttpApplication)(Context.ApplicationInstance));
+            }
+        }
+        
+        public override void Execute() {
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 258, 4, true);
+
+WriteLiteral("\r\n\r\n");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 258, 4, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 313, 5, true);
+
+WriteLiteral("<link");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 313, 5, true);
+
+WriteAttribute("href", Tuple.Create(" href=\"", 318), Tuple.Create("\"", 376)
+, Tuple.Create(Tuple.Create("", 325), Tuple.Create<System.Object, System.Int32>(Url.Content('~/Mvc/Views/Slider/SliderStyles.css')
+, 325), false)
+);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 377, 17, true);
+
+WriteLiteral(" rel=\"stylesheet\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 377, 17, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 394, 16, true);
+
+WriteLiteral(" type=\"text/css\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 394, 16, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 410, 11, true);
+
+WriteLiteral(" />\r\n\r\n<div");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 410, 11, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 421, 28, true);
+
+WriteLiteral(" class=\"carousel vert slide\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 421, 28, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 449, 21, true);
+
+WriteLiteral(" data-ride=\"carousel\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 449, 21, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 470, 21, true);
+
+WriteLiteral(" data-interval=\"2000\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 470, 21, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 491, 7, true);
+
+WriteLiteral(">\r\n    ");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 491, 7, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 523, 9, true);
+
+WriteLiteral("\r\n    <ol");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 523, 9, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 532, 40, true);
+
+WriteLiteral(" class=\"carousel-indicators flex-column\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 532, 40, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 572, 14, true);
+
+WriteLiteral(">\r\n        <li");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 572, 14, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 586, 34, true);
+
+WriteLiteral(" data-target=\"#carouselIndicators\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 586, 34, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 620, 18, true);
+
+WriteLiteral(" data-slide-to=\"0\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 620, 18, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 638, 55, true);
+
+WriteLiteral(" class=\"active border border-danger rounded-circle m-1\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 638, 55, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 693, 19, true);
+
+WriteLiteral("></li>\r\n        <li");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 693, 19, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 712, 34, true);
+
+WriteLiteral(" data-target=\"#carouselIndicators\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 712, 34, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 746, 18, true);
+
+WriteLiteral(" data-slide-to=\"1\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 746, 18, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 764, 48, true);
+
+WriteLiteral(" class=\"border border-danger rounded-circle m-1\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 764, 48, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 812, 19, true);
+
+WriteLiteral("></li>\r\n        <li");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 812, 19, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 831, 34, true);
+
+WriteLiteral(" data-target=\"#carouselIndicators\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 831, 34, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 865, 18, true);
+
+WriteLiteral(" data-slide-to=\"2\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 865, 18, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 883, 48, true);
+
+WriteLiteral(" class=\"border border-danger rounded-circle m-1\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 883, 48, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 931, 25, true);
+
+WriteLiteral("></li>\r\n    </ol>\r\n\r\n    ");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 931, 25, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 974, 10, true);
+
+WriteLiteral("\r\n    <div");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 974, 10, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 984, 23, true);
+
+WriteLiteral(" class=\"carousel-inner\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 984, 23, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1007, 11, true);
+
+WriteLiteral(">\r\n        ");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1007, 11, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1204, 16, true);
+
+WriteLiteral("\r\n\r\n        <div");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1204, 16, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1220, 29, true);
+
+WriteLiteral(" class=\"carousel-item active\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1220, 29, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1249, 19, true);
+
+WriteLiteral(">\r\n            <img");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1249, 19, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1268, 34, true);
+
+WriteLiteral(" class=\"d-block mx-auto img-fluid\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1268, 34, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1302, 38, true);
+
+WriteLiteral(" src=\"https://via.placeholder.com/800\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1302, 38, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1340, 21, true);
+
+WriteLiteral(" alt=\"Alternate Text\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1340, 21, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1361, 35, true);
+
+WriteLiteral(" />\r\n        </div>\r\n\r\n        <div");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1361, 35, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1396, 29, true);
+
+WriteLiteral(" class=\"carousel-item active\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1396, 29, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1425, 19, true);
+
+WriteLiteral(">\r\n            <img");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1425, 19, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1444, 34, true);
+
+WriteLiteral(" class=\"d-block mx-auto img-fluid\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1444, 34, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1478, 49, true);
+
+WriteLiteral(" src=\"https://via.placeholder.com/800/dd4444/fff\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1478, 49, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1527, 21, true);
+
+WriteLiteral(" alt=\"Alternate Text\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1527, 21, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1548, 35, true);
+
+WriteLiteral(" />\r\n        </div>\r\n\r\n        <div");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1548, 35, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1583, 29, true);
+
+WriteLiteral(" class=\"carousel-item active\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1583, 29, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1612, 19, true);
+
+WriteLiteral(">\r\n            <img");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1612, 19, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1631, 34, true);
+
+WriteLiteral(" class=\"d-block mx-auto img-fluid\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1631, 34, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1665, 42, true);
+
+WriteLiteral(" src=\"https://via.placeholder.com/800/777\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1665, 42, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1707, 21, true);
+
+WriteLiteral(" alt=\"Alternate Text\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1707, 21, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1728, 41, true);
+
+WriteLiteral(" />\r\n        </div>\r\n    </div>\r\n\r\n    <a");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1728, 41, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1769, 30, true);
+
+WriteLiteral(" class=\"carousel-control-prev\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1769, 30, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1799, 32, true);
+
+WriteLiteral(" href=\"#carouselExampleControls\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1799, 32, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1831, 14, true);
+
+WriteLiteral(" role=\"button\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1831, 14, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1845, 18, true);
+
+WriteLiteral(" data-slide=\"prev\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1845, 18, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1863, 16, true);
+
+WriteLiteral(">\r\n        <span");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1863, 16, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1879, 58, true);
+
+WriteLiteral(" class=\"carousel-control-prev-icon bg-dark rounded-circle\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1879, 58, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1937, 19, true);
+
+WriteLiteral(" aria-hidden=\"true\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1937, 19, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1956, 23, true);
+
+WriteLiteral("></span>\r\n        <span");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1956, 23, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1979, 16, true);
+
+WriteLiteral(" class=\"sr-only\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1979, 16, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1995, 34, true);
+
+WriteLiteral(">Previous</span>\r\n    </a>\r\n    <a");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1995, 34, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2029, 30, true);
+
+WriteLiteral(" class=\"carousel-control-next\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2029, 30, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2059, 32, true);
+
+WriteLiteral(" href=\"#carouselExampleControls\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2059, 32, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2091, 14, true);
+
+WriteLiteral(" role=\"button\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2091, 14, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2105, 18, true);
+
+WriteLiteral(" data-slide=\"next\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2105, 18, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2123, 16, true);
+
+WriteLiteral(">\r\n        <span");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2123, 16, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2139, 58, true);
+
+WriteLiteral(" class=\"carousel-control-next-icon bg-dark rounded-circle\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2139, 58, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2197, 19, true);
+
+WriteLiteral(" aria-hidden=\"true\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2197, 19, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2216, 23, true);
+
+WriteLiteral("></span>\r\n        <span");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2216, 23, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2239, 16, true);
+
+WriteLiteral(" class=\"sr-only\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2239, 16, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2255, 30, true);
+
+WriteLiteral(">Next</span>\r\n    </a>\r\n</div>");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2255, 30, true);
+
+        }
+    }
+}
+
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+HResult : -2147467259
+Stack Trace :    at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Compilation.CompilationPerformanceRazorView.RenderWithPerformanceMeasurement(ViewContext viewContext, TextWriter writer)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Compilation.CompilationPerformanceRazorView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 2/1/2022 8:24:16 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132882203724790485
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/home/Action/Edit/en
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132882203724790485
+
+ProcessId: 1928
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:6192
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 63da6959-0a35-4534-8358-9cca7efaf8d7
+
+Timestamp: 2/1/2022 8:24:23 PM
+
+Message: HandlingInstanceID: 4886f259-976c-49d0-9d9d-5673a513b4f3
+An exception of type 'System.Web.HttpCompileException' occurred and was caught.
+-------------------------------------------------------------------------------
+02/01/2022 14:24:23
+Type : System.Web.HttpCompileException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : c:\Users\zwilson\AppData\Local\Temp\Temporary ASP.NET Files\vs\a28cd497\66a1d28e\App_Web_index.cshtml#bootstrap4.cshtml.1d919b10.k7sb_pkb.0.cs(59): error CS1012: Too many characters in character literal
+Source : System.Web
+Help link : 
+Results : System.CodeDom.Compiler.CompilerResults
+SourceCode : //------------------------------------------------------------------------------
+// <auto-generated>
+//     This code was generated by a tool.
+//     Runtime Version:4.0.30319.42000
+//
+//     Changes to this file may cause incorrect behavior and will be lost if
+//     the code is regenerated.
+// </auto-generated>
+//------------------------------------------------------------------------------
+
+namespace ASP {
+    using System;
+    using System.Collections.Generic;
+    using System.IO;
+    using System.Linq;
+    using System.Net;
+    using System.Web;
+    using System.Web.Helpers;
+    using System.Web.Security;
+    using System.Web.UI;
+    using System.Web.WebPages;
+    using System.Web.Mvc;
+    using System.Web.Mvc.Ajax;
+    using System.Web.Mvc.Html;
+    using System.Web.Routing;
+    
+    
+    public class _Page_Frontend_Assembly_RealSiteFinityFirst_Mvc_Views_Slider_Index_cshtml_Bootstrap4_cshtml : System.Web.Mvc.WebViewPage<RealSiteFinityFirst.Mvc.Models.SliderModel> {
+        
+#line hidden
+        
+        public _Page_Frontend_Assembly_RealSiteFinityFirst_Mvc_Views_Slider_Index_cshtml_Bootstrap4_cshtml() {
+        }
+        
+        protected System.Web.HttpApplication ApplicationInstance {
+            get {
+                return ((System.Web.HttpApplication)(Context.ApplicationInstance));
+            }
+        }
+        
+        public override void Execute() {
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 258, 4, true);
+
+WriteLiteral("\r\n\r\n");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 258, 4, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 313, 5, true);
+
+WriteLiteral("<link");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 313, 5, true);
+
+WriteAttribute("href", Tuple.Create(" href=\"", 318), Tuple.Create("\"", 376)
+, Tuple.Create(Tuple.Create("", 325), Tuple.Create<System.Object, System.Int32>(Url.Content('~/Mvc/Views/Slider/SliderStyles.css')
+, 325), false)
+);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 377, 17, true);
+
+WriteLiteral(" rel=\"stylesheet\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 377, 17, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 394, 16, true);
+
+WriteLiteral(" type=\"text/css\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 394, 16, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 410, 11, true);
+
+WriteLiteral(" />\r\n\r\n<div");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 410, 11, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 421, 28, true);
+
+WriteLiteral(" class=\"carousel vert slide\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 421, 28, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 449, 21, true);
+
+WriteLiteral(" data-ride=\"carousel\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 449, 21, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 470, 21, true);
+
+WriteLiteral(" data-interval=\"2000\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 470, 21, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 491, 7, true);
+
+WriteLiteral(">\r\n    ");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 491, 7, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 523, 9, true);
+
+WriteLiteral("\r\n    <ol");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 523, 9, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 532, 40, true);
+
+WriteLiteral(" class=\"carousel-indicators flex-column\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 532, 40, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 572, 14, true);
+
+WriteLiteral(">\r\n        <li");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 572, 14, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 586, 34, true);
+
+WriteLiteral(" data-target=\"#carouselIndicators\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 586, 34, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 620, 18, true);
+
+WriteLiteral(" data-slide-to=\"0\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 620, 18, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 638, 55, true);
+
+WriteLiteral(" class=\"active border border-danger rounded-circle m-1\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 638, 55, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 693, 19, true);
+
+WriteLiteral("></li>\r\n        <li");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 693, 19, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 712, 34, true);
+
+WriteLiteral(" data-target=\"#carouselIndicators\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 712, 34, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 746, 18, true);
+
+WriteLiteral(" data-slide-to=\"1\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 746, 18, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 764, 48, true);
+
+WriteLiteral(" class=\"border border-danger rounded-circle m-1\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 764, 48, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 812, 19, true);
+
+WriteLiteral("></li>\r\n        <li");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 812, 19, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 831, 34, true);
+
+WriteLiteral(" data-target=\"#carouselIndicators\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 831, 34, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 865, 18, true);
+
+WriteLiteral(" data-slide-to=\"2\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 865, 18, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 883, 48, true);
+
+WriteLiteral(" class=\"border border-danger rounded-circle m-1\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 883, 48, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 931, 25, true);
+
+WriteLiteral("></li>\r\n    </ol>\r\n\r\n    ");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 931, 25, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 974, 10, true);
+
+WriteLiteral("\r\n    <div");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 974, 10, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 984, 23, true);
+
+WriteLiteral(" class=\"carousel-inner\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 984, 23, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1007, 11, true);
+
+WriteLiteral(">\r\n        ");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1007, 11, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1204, 16, true);
+
+WriteLiteral("\r\n\r\n        <div");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1204, 16, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1220, 29, true);
+
+WriteLiteral(" class=\"carousel-item active\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1220, 29, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1249, 19, true);
+
+WriteLiteral(">\r\n            <img");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1249, 19, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1268, 34, true);
+
+WriteLiteral(" class=\"d-block mx-auto img-fluid\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1268, 34, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1302, 38, true);
+
+WriteLiteral(" src=\"https://via.placeholder.com/800\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1302, 38, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1340, 21, true);
+
+WriteLiteral(" alt=\"Alternate Text\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1340, 21, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1361, 35, true);
+
+WriteLiteral(" />\r\n        </div>\r\n\r\n        <div");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1361, 35, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1396, 29, true);
+
+WriteLiteral(" class=\"carousel-item active\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1396, 29, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1425, 19, true);
+
+WriteLiteral(">\r\n            <img");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1425, 19, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1444, 34, true);
+
+WriteLiteral(" class=\"d-block mx-auto img-fluid\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1444, 34, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1478, 49, true);
+
+WriteLiteral(" src=\"https://via.placeholder.com/800/dd4444/fff\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1478, 49, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1527, 21, true);
+
+WriteLiteral(" alt=\"Alternate Text\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1527, 21, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1548, 35, true);
+
+WriteLiteral(" />\r\n        </div>\r\n\r\n        <div");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1548, 35, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1583, 29, true);
+
+WriteLiteral(" class=\"carousel-item active\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1583, 29, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1612, 19, true);
+
+WriteLiteral(">\r\n            <img");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1612, 19, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1631, 34, true);
+
+WriteLiteral(" class=\"d-block mx-auto img-fluid\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1631, 34, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1665, 42, true);
+
+WriteLiteral(" src=\"https://via.placeholder.com/800/777\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1665, 42, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1707, 21, true);
+
+WriteLiteral(" alt=\"Alternate Text\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1707, 21, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1728, 41, true);
+
+WriteLiteral(" />\r\n        </div>\r\n    </div>\r\n\r\n    <a");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1728, 41, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1769, 30, true);
+
+WriteLiteral(" class=\"carousel-control-prev\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1769, 30, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1799, 32, true);
+
+WriteLiteral(" href=\"#carouselExampleControls\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1799, 32, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1831, 14, true);
+
+WriteLiteral(" role=\"button\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1831, 14, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1845, 18, true);
+
+WriteLiteral(" data-slide=\"prev\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1845, 18, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1863, 16, true);
+
+WriteLiteral(">\r\n        <span");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1863, 16, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1879, 58, true);
+
+WriteLiteral(" class=\"carousel-control-prev-icon bg-dark rounded-circle\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1879, 58, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1937, 19, true);
+
+WriteLiteral(" aria-hidden=\"true\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1937, 19, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1956, 23, true);
+
+WriteLiteral("></span>\r\n        <span");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1956, 23, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1979, 16, true);
+
+WriteLiteral(" class=\"sr-only\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1979, 16, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1995, 34, true);
+
+WriteLiteral(">Previous</span>\r\n    </a>\r\n    <a");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 1995, 34, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2029, 30, true);
+
+WriteLiteral(" class=\"carousel-control-next\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2029, 30, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2059, 32, true);
+
+WriteLiteral(" href=\"#carouselExampleControls\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2059, 32, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2091, 14, true);
+
+WriteLiteral(" role=\"button\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2091, 14, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2105, 18, true);
+
+WriteLiteral(" data-slide=\"next\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2105, 18, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2123, 16, true);
+
+WriteLiteral(">\r\n        <span");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2123, 16, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2139, 58, true);
+
+WriteLiteral(" class=\"carousel-control-next-icon bg-dark rounded-circle\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2139, 58, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2197, 19, true);
+
+WriteLiteral(" aria-hidden=\"true\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2197, 19, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2216, 23, true);
+
+WriteLiteral("></span>\r\n        <span");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2216, 23, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2239, 16, true);
+
+WriteLiteral(" class=\"sr-only\"");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2239, 16, true);
+
+BeginContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2255, 30, true);
+
+WriteLiteral(">Next</span>\r\n    </a>\r\n</div>");
+
+EndContext("~/Frontend-Assembly/RealSiteFinityFirst/Mvc/Views/Slider/Index.cshtml#Bootstrap4." +
+"cshtml", 2255, 30, true);
+
+        }
+    }
+}
+
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.CodeDom.Compiler.CompilerResults Compile()
+HResult : -2147467259
+Stack Trace :    at System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Compilation.CompilationPerformanceRazorView.ShouldMeasurePerformance(String virtualPath)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Compilation.CompilationPerformanceRazorView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 2/1/2022 8:24:23 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132882203724790485
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/home/Action/Preview
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132882203724790485
+
+ProcessId: 1928
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:24984
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 8617367f-da48-4df7-afb9-a95784772430
+
+Timestamp: 2/1/2022 8:33:02 PM
+
+Message: HandlingInstanceID: 6189a6a4-f9da-400e-ae23-ac38bf8680c0
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+02/01/2022 14:33:02
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/Slider/Index.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 2/1/2022 8:33:02 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132882211208365629
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Mvc/Views/Slider/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132882211208365629
+
+ProcessId: 24136
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:844
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 878c70ab-7e60-4319-96c3-8911f5e3a349
+
+Timestamp: 2/1/2022 8:35:32 PM
+
+Message: HandlingInstanceID: b4c7bd49-6d7c-43ec-af6d-5bb281fbb8c0
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+02/01/2022 14:35:32
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An item with the same key has already been added.
+Source : mscorlib
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowArgumentException(System.ExceptionResource)
+HResult : -2147024809
+Stack Trace :    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.Add(TKey key, TElement element)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteConfig()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteClientCredentials()
+   at Telerik.Sitefinity.Analytics.Infrastructure.Services.AnalyticsPermissionsService.ApplicationIsConfigured(Boolean useBackupFiles)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Web.UI.AnalyticsTimeline.AnalyticsTimelineDashboard.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 2/1/2022 8:35:32 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132882211208365629
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/dashboard
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132882211208365629
+
+ProcessId: 24136
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:844
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 3f1863ee-d739-4352-a6e6-2991107a7162
+
+Timestamp: 2/2/2022 3:37:04 PM
+
+Message: HandlingInstanceID: 05eda928-1c14-4e12-83d1-490da738adf1
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+02/02/2022 09:37:04
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/Mvc/Views/Slider/Index.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 2/2/2022 3:37:04 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132882897625012618
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Mvc/Views/Slider/Index.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132882897625012618
+
+ProcessId: 6820
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:10272
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 237197ed-3c10-452a-9cf3-39b1172fcca0
+
+Timestamp: 2/2/2022 3:59:00 PM
+
+Message: HandlingInstanceID: 06024b56-d540-4567-a1e0-204e2f7c6f6f
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+02/02/2022 09:59:00
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An item with the same key has already been added.
+Source : mscorlib
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowArgumentException(System.ExceptionResource)
+HResult : -2147024809
+Stack Trace :    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.Add(TKey key, TElement element)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteConfig()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteClientCredentials()
+   at Telerik.Sitefinity.Analytics.Infrastructure.Services.AnalyticsPermissionsService.ApplicationIsConfigured(Boolean useBackupFiles)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Web.UI.AnalyticsTimeline.AnalyticsTimelineDashboard.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 2/2/2022 3:59:00 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132882906463334885
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/dashboard
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132882906463334885
+
+ProcessId: 13824
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:25260
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 6cee5411-e3f6-47c1-bede-4d8dd6404d81
+
+Timestamp: 2/2/2022 4:23:39 PM
+
+Message: HandlingInstanceID: cafa001d-8293-4e69-9198-84ba07bcb8c5
+An exception of type 'System.ArgumentException' occurred and was caught.
+------------------------------------------------------------------------
+02/02/2022 10:23:39
+Type : System.ArgumentException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : An item with the same key has already been added.
+Source : mscorlib
+Help link : 
+ParamName : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ThrowArgumentException(System.ExceptionResource)
+HResult : -2147024809
+Stack Trace :    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at Telerik.Sitefinity.Configuration.ConfigElementDictionary`2.Add(TKey key, TElement element)
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteConfig()
+   at Telerik.Sitefinity.Analytics.Server.GoogleAnalyticsPlugin.Config.AnalyticsConfig.ThisSiteClientCredentials()
+   at Telerik.Sitefinity.Analytics.Infrastructure.Services.AnalyticsPermissionsService.ApplicationIsConfigured(Boolean useBackupFiles)
+   at Telerik.Sitefinity.Analytics.Server.Infrastructure.Web.UI.AnalyticsTimeline.AnalyticsTimelineDashboard.InitializeControls(GenericContainer container)
+   at Telerik.Sitefinity.Web.UI.SimpleView.CreateChildControls()
+   at System.Web.UI.Control.EnsureChildControls()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Control.PreRenderRecursiveInternal()
+   at System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+
+Additional Info:
+
+MachineName : DESKTOP-LF3RQ3G
+TimeStamp : 2/2/2022 4:23:39 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7727.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-1-132882922981676792
+ThreadIdentity : zwilson@affirma.com
+WindowsIdentity : AFFIRMA\zwilson
+Requested URL : https://localhost:44310/Sitefinity/dashboard
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: DESKTOP-LF3RQ3G
+
+App Domain: /LM/W3SVC/2/ROOT-1-132882922981676792
+
+ProcessId: 24968
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:23696
+
+Extended Properties: 
+----------------------------------------
